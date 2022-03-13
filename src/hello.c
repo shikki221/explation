@@ -2,6 +2,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, Bibs!\n");
+    char name[32] = "";
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
     return 0;
 }
